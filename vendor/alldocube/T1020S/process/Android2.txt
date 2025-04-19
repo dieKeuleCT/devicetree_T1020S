@@ -1,0 +1,2848 @@
+
+cc_prebuilt_library_shared {
+	name: "libvcm_dw9800",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvcm_dw9800.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvcm_dw9800.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvcm_lc898213",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvcm_lc898213.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvcm_lc898213.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvcm_zc524",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvcm_zc524.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvcm_zc524.so"],
+			shared_libs: ["libcutils", "libcamcommon", "libutils", "libcamsensor", "liblog", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvdspservice",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvdspservice.so"],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.sprd.hardware.vdsp@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvdspservice.so"],
+			shared_libs: ["libhidlbase", "libutils", "libcutils", "liblog", "vendor.sprd.hardware.vdsp@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libvendortinyxml",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libvendortinyxml.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libvendortinyxml.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libverify",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libverify.so"],
+			shared_libs: ["liblog", "libutils", "libdl", "libc++", "libc", "libm", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libverify.so"],
+			shared_libs: ["liblog", "libutils", "libdl", "libc++", "libc", "libm", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libyuv420_scaler",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libyuv420_scaler.so"],
+			shared_libs: ["libc", "libm", "libdl", "liblog", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libyuv420_scaler.so"],
+			shared_libs: ["libc", "libm", "libdl", "liblog", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "PQTune.ums512",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/PQTune.ums512.so"],
+			shared_libs: ["libcutils", "libutils", "libxml2", "liblog", "libdrm", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/PQTune.ums512.so"],
+			shared_libs: ["libcutils", "libutils", "libxml2", "liblog", "libdrm", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libFactoryRadioTest",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libFactoryRadioTest.so"],
+			shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/libFactoryRadioTest.so"],
+			shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcheckkeybox",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libcheckkeybox.so"],
+			shared_libs: ["liblog", "libcutils", "libteeproduction", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/libcheckkeybox.so"],
+			shared_libs: ["liblog", "libcutils", "libteeproduction", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgetuid",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libgetuid.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/libgetuid.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liblcdnpi",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/liblcdnpi.so"],
+			shared_libs: ["liblog", "libcutils", "libdrm", "libpng", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/liblcdnpi.so"],
+			shared_libs: ["liblog", "libcutils", "libdrm", "libpng", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libpppDial",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libpppDial.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "libatci", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/npidevice/libpppDial.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libhidlbase", "libhidltransport", "libhwbinder", "libatci", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "power.sprd",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/power.sprd.so"],
+			shared_libs: ["liblog", "libcutils", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/power.sprd.so"],
+			shared_libs: ["liblog", "libcutils", "libxml2", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libpubefuseapi",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/production/libpubefuseapi.so"],
+			shared_libs: ["liblog", "libcutils", "libefuse", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/production/libpubefuseapi.so"],
+			shared_libs: ["liblog", "libcutils", "libefuse", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "production",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libbundlewrapper2",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libbundlewrapper2.so"],
+			shared_libs: ["libaudioutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/soundfx/libbundlewrapper2.so"],
+			shared_libs: ["libaudioutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.aprd@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.aprd@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.aprd@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.connmgr@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.connmgr@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.connmgr@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.cplog_connmgr@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.cplog_connmgr@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.cplog_connmgr@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.enhance@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.enhance@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.enhance@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.gnss@2.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.gnss@2.0.so"],
+			shared_libs: ["android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.gnss@2.0.so"],
+			shared_libs: ["android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.log@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.log@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.log@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.network@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.network@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.network@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.power@4.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.power@4.0.so"],
+			shared_libs: ["android.hardware.power@1.0", "android.hardware.power@1.1", "android.hardware.power@1.2", "android.hardware.power@1.3", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.power@4.0.so"],
+			shared_libs: ["android.hardware.power@1.0", "android.hardware.power@1.1", "android.hardware.power@1.2", "android.hardware.power@1.3", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.radio@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.radio@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.radio@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.thermal@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.thermal@1.0.so"],
+			shared_libs: ["android.hardware.power@1.0", "android.hardware.thermal@1.0", "android.hardware.thermal@1.1", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.thermal@1.0.so"],
+			shared_libs: ["android.hardware.power@1.0", "android.hardware.thermal@1.0", "android.hardware.thermal@1.1", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.vdsp@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/vendor.sprd.hardware.vdsp@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.vdsp@1.0.so"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "audio.primary.ums512",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/hw/audio.primary.ums512.so"],
+			shared_libs: ["liblog", "libcutils", "libtinyalsa", "libaudioutils", "libexpat", "libutils", "libhardware_legacy", "libtinycompress", "libatci", "libtinycompress_util", "libunisocpreprocessing", "libalsautils", "libprocessgroup", "libvendortinyxml", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "hw",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "lib_factorytest_ft2",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/lib_factorytest_ft2.so"],
+			shared_libs: ["libpng", "libz", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libbqbbt",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libbqbbt.so"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libengbt",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libengbt.so"],
+			shared_libs: ["libcutils", "libutils", "libhardware", "libhardware_legacy", "libbt-sprd_suite", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libengpc_adapt",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libengpc_adapt.so"],
+			shared_libs: ["liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libengpcctl",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libengpcctl.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libnpi_rtc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libnpi_rtc.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libbase", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libomx_mp3dec_sprd",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libomx_mp3dec_sprd.so"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_soft_imaadpcmdec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_soft_imaadpcmdec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libutils", "liblog", "libstagefrighthw", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_soft_mjpgdec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_soft_mjpgdec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libutils", "liblog", "libstagefrighthw", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_deintl",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_deintl.so"],
+			shared_libs: ["libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_h264dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libstagefright_sprd_deintl", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_h264enc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_h264enc.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_h265dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_h265enc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_h265enc.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_mp3dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_mp3enc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_mp3enc.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libbinder", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_mpeg4dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_mpeg4enc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_mpeg4enc.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_vp9dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_vp9dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_vpxdec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_vpxdec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtinycompress_util",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtinycompress_util.so"],
+			shared_libs: ["libcutils", "libutils", "libtinycompress", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtracedump",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libtracedump.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libunisocpreprocessing",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libunisocpreprocessing.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwifi-hal",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwifi-hal.so"],
+			shared_libs: ["libbase", "libcutils", "liblog", "libnl", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwpa_client",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwpa_client.so"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwvhidl",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libwvhidl.so"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "android.hidl.memory@1.0", "libbase", "libhidlbase", "libhidlmemory", "libhidltransport", "libhwbinder", "liblog", "libprotobuf-cpp-lite", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "autotestfm",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/autotestfm.so"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libhardware", "libhardware_legacy", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "autotestsensorinfo",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/autotestsensorinfo.so"],
+			shared_libs: ["libcutils", "liblog", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "autotestsim",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/autotestsim.so"],
+			shared_libs: ["libcutils", "liblog", "libatci", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "autotesttcard",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/autotesttcard.so"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "autotestwifi",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/autotestwifi.so"],
+			shared_libs: ["liblog", "libcutils", "android.hardware.wifi@1.0", "libwpa_client", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libap_opt",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libap_opt.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libapcomm",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libapcomm.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libapdeepsleep",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libapdeepsleep.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libatfm",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libatfm.so"],
+			shared_libs: ["liblog", "libcutils", "libtracedump", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libbt-sprd_eut",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libbt-sprd_eut.so"],
+			shared_libs: ["liblog", "libcutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcharge",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libcharge.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libchipid",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libchipid.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libcomcontrol",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libcomcontrol.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdcxcali",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libdcxcali.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libdynamicproduction",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libdynamicproduction.so"],
+			shared_libs: ["liblog", "libcutils", "libteeproduction", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libfm-sprd_eut",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libfm-sprd_eut.so"],
+			shared_libs: ["liblog", "libcutils", "libtracedump", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libftmode",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libftmode.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgetswpac",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libgetswpac.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgpio",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libgpio.so"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libgpspc",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libgpspc.so"],
+			shared_libs: ["libutils", "libhardware", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libifaacheck",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libifaacheck.so"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libhardware", "librpmbclient", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libkeypadnpi",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libkeypadnpi.so"],
+			shared_libs: ["liblog", "libcutils", "libpng", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "liblkvnpi",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/liblkvnpi.so"],
+			shared_libs: ["libcutils", "liblog", "libhardware", "libeng_tok", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libmiscdata",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libmiscdata.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libnefuse",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libnefuse.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libreadfixednv",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libreadfixednv.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "librebootcmd",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/librebootcmd.so"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtsensor",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libtsensor.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libtsxrawdata",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libtsxrawdata.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libwifieut_m3",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/npidevice/libwifieut_m3.so"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "npidevice",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libsprdvoiceprocessing",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/soundfx/libsprdvoiceprocessing.so"],
+			shared_libs: ["liblog", "libcutils", "libsprdaudiohalv5", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	relative_install_path: "soundfx",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libkernelbootcp.trusty",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libkernelbootcp.trusty.so"],
+			shared_libs: ["libtrusty", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.face@1.0",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.face@1.0.so"],
+			shared_libs: ["android.hardware.biometrics.face@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.wifi.hostapd@1.1",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.hostapd@1.1.so"],
+			shared_libs: ["android.hardware.wifi.hostapd@1.0", "android.hardware.wifi.hostapd@1.1", "android.hardware.wifi.supplicant@1.0", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "vendor.sprd.hardware.wifi.supplicant@1.2",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/vendor.sprd.hardware.wifi.supplicant@1.2.so"],
+			shared_libs: ["android.hardware.wifi.supplicant@1.0", "android.hardware.wifi.supplicant@1.1", "android.hardware.wifi.supplicant@1.2", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "btools",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/btools"],
+			shared_libs: ["libcutils", "libutils", "libhardware", "libhardware_legacy", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "charge",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/charge"],
+			shared_libs: ["libhardware_legacy", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "connmgr",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/connmgr"],
+			shared_libs: ["libcutils", "libnetutils", "liblog", "libiwnpi", "libengbt", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "connmgr_cli",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/connmgr_cli"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "cp_diskserver",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/cp_diskserver"],
+			shared_libs: ["libhardware_legacy", "libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "cplogctl",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/cplogctl"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "dcxsrv",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/dcxsrv"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "engpc",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/engpc"],
+			shared_libs: ["liblog", "libutils", "libcutils", "libengpc_adapt", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "engpcctl",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/engpcctl"],
+			shared_libs: ["liblog", "libcutils", "libengpcctl", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "enhance_test",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/enhance_test"],
+			shared_libs: ["libhardware_legacy", "libtinyxml2", "libcutils", "liblog", "libutils", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "factorytest",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/factorytest"],
+			shared_libs: ["libhardware", "libhardware_legacy", "libtinyalsa", "libcutils", "liblog", "libbase", "libnetutils", "libutils", "libbinder", "libhidlbase", "libhidltransport", "libhwbinder", "android.hardware.sensors@1.0", "libmemion", "android.hardware.wifi@1.0", "libwpa_client", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "flush_slog_modem",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/flush_slog_modem"],
+			shared_libs: ["libc++", "libcutils", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gpsd",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/gpsd"],
+			shared_libs: ["liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.audio@2.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.audio@2.0-service"],
+			shared_libs: ["libcutils", "libbinder", "libhidlbase", "libhidltransport", "liblog", "libutils", "libhardware", "libhwbinder", "android.hardware.audio@2.0", "android.hardware.audio@4.0", "android.hardware.audio@5.0", "android.hardware.audio.common@2.0", "android.hardware.audio.common@4.0", "android.hardware.audio.common@5.0", "android.hardware.audio.effect@2.0", "android.hardware.audio.effect@4.0", "android.hardware.audio.effect@5.0", "android.hardware.bluetooth.a2dp@1.0", "android.hardware.bluetooth.audio@2.0", "android.hardware.soundtrigger@2.0", "android.hardware.soundtrigger@2.1", "android.hardware.soundtrigger@2.2", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.bluetooth.audio@2.0-service.unisoc",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth.audio@2.0-service.unisoc"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.bluetooth.audio@2.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.bluetooth@1.0-service.unisoc",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service.unisoc"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.bluetooth@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.2-service.clearkey",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.clearkey"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "libbase", "libbinder", "libcrypto", "libhidlbase", "libhidlmemory", "libhidltransport", "liblog", "libprotobuf-cpp-lite", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.drm@1.2-service.widevine",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.drm@1.2-service.widevine"],
+			shared_libs: ["android.hardware.drm@1.0", "android.hardware.drm@1.1", "android.hardware.drm@1.2", "libbase", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "libwvhidl", "libbinder", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.health@2.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.health@2.0-service"],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "libhidltransport", "libhwbinder", "liblog", "libutils", "android.hardware.health@2.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.keymaster@4.0-unisoc.service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.keymaster@4.0-unisoc.service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "libtrusty", "libkeymaster_messages", "libkeymaster4", "android.hardware.keymaster@4.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.neuralnetworks@1.2-service-xtensa",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.neuralnetworks@1.2-service-xtensa"],
+			shared_libs: ["libbase", "libcutils", "libfmq", "libhardware", "libhidlbase", "libhidlmemory", "libhidltransport", "libnativewindow", "libui", "liblog", "libutils", "android.hardware.neuralnetworks@1.2", "android.hardware.neuralnetworks@1.1", "android.hardware.neuralnetworks@1.0", "android.hidl.allocator@1.0", "android.hidl.memory@1.0", "libbinder", "libvdspservice", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "android.hardware.wifi@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/android.hardware.wifi@1.0-service"],
+			shared_libs: ["libbase", "libcutils", "libhidlbase", "libhidltransport", "liblog", "libnl", "libutils", "libwifi-hal", "libwifi-system-iface", "android.hardware.wifi@1.0", "android.hardware.wifi@1.1", "android.hardware.wifi@1.2", "android.hardware.wifi@1.3", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "urild",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/urild"],
+			shared_libs: ["libcutils", "liblog", "librilcore", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.aprd@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.aprd@1.0-service"],
+			shared_libs: ["libhidlbase", "libhidltransport", "liblog", "libsysutils", "libutils", "libcutils", "libhardware", "libatci", "libc++", "libxml2", "vendor.sprd.hardware.aprd@1.0", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.broadcastradio@2.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.broadcastradio@2.0-service"],
+			shared_libs: ["liblog", "libbase", "libhardware", "libhidlbase", "libhidltransport", "libutils", "android.hardware.broadcastradio@2.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.connmgr@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.connmgr@1.0-service"],
+			shared_libs: ["liblog", "libsysutils", "libutils", "libcutils", "libhardware", "libhidlbase", "libhidltransport", "vendor.sprd.hardware.connmgr@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.cplog_connmgr@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.cplog_connmgr@1.0-service"],
+			shared_libs: ["liblog", "libsysutils", "libutils", "libcutils", "libhardware", "libhidlbase", "libhidltransport", "vendor.sprd.hardware.cplog_connmgr@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.enhance@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.enhance@1.0-service"],
+			shared_libs: ["liblog", "libutils", "libhardware", "libhidlbase", "libhidltransport", "vendor.sprd.hardware.enhance@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.face@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.face@1.0-service"],
+			shared_libs: ["libclang_rt.ubsan_standalone", "libcutils", "liblog", "libhidlbase", "libhidltransport", "libhardware", "libutils", "libstagefright_foundation", "android.hardware.biometrics.face@1.0", "vendor.sprd.hardware.face@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.gnss@2.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.gnss@2.0-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libbinder", "libhidlbase", "libhidltransport", "android.hardware.gnss.measurement_corrections@1.0", "android.hardware.gnss.visibility_control@1.0", "android.hardware.gnss@1.0", "android.hardware.gnss@1.1", "android.hardware.gnss@2.0", "vendor.sprd.hardware.gnss@2.0", "libhardware", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.log@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.log@1.0-service"],
+			shared_libs: ["liblog", "libsysutils", "libutils", "libcutils", "libhardware", "libhidlbase", "libhidltransport", "vendor.sprd.hardware.log@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.network@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.network@1.0-service"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libutils", "liblog", "libcutils", "libhardware", "libbase", "libsysutils", "vendor.sprd.hardware.network@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.power@4.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.power@4.0-service"],
+			shared_libs: ["libhidlbase", "libhidltransport", "libbase", "liblog", "libutils", "vendor.sprd.hardware.power@4.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.thermal@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.thermal@1.0-service"],
+			shared_libs: ["liblog", "libcutils", "libbase", "libutils", "libhardware", "libhidlbase", "libhidltransport", "android.hardware.thermal@1.0", "android.hardware.thermal@1.1", "vendor.sprd.hardware.thermal@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "vendor.sprd.hardware.vdsp@1.0-service",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/vendor.sprd.hardware.vdsp@1.0-service"],
+			shared_libs: ["liblog", "libhardware", "libhidlbase", "libutils", "libvdspservice", "vendor.sprd.hardware.vdsp@1.0", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "wpa_supplicant",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/hw/wpa_supplicant"],
+			shared_libs: ["libcutils", "liblog", "libcrypto", "libssl", "libkeystore-wifi-hidl", "libkeystore-engine-wifi-hidl", "libnl", "android.hardware.wifi.supplicant@1.0", "android.hardware.wifi.supplicant@1.1", "android.hardware.wifi.supplicant@1.2", "vendor.sprd.hardware.wifi.supplicant@1.2", "libhidlbase", "libhidltransport", "libhwbinder", "libutils", "libbase", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "hw",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "iqfeed",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/iqfeed"],
+			shared_libs: ["libcutils", "liblog", "libutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "iwnpi",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/iwnpi"],
+			shared_libs: ["libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "mlogservice",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/mlogservice"],
+			shared_libs: ["libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "modem_control",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/modem_control"],
+			shared_libs: ["libcutils", "libexpat", "liblog", "libhardware_legacy", "libkernelbootcp.trusty", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "phasecheckserver",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/phasecheckserver"],
+			shared_libs: ["libutils", "libbinder", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fix_cpu_freq",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/cpu/fix_freq/fix_cpu_freq"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/cpu/fix_freq",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "lit_cpu_freq",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/cpu/lit_freq/lit_cpu_freq"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/cpu/lit_freq",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "cpu_loading",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/cpu/loading/cpu_loading"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/cpu/loading",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "cpu_trans_table",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/cpu/trans_table/cpu_trans_table"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/cpu/trans_table",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ddr_bm",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/ddr/bm/tool/ddr_bm"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/ddr/bm/tool",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ddr_bm_log",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/power/ddr/bm/tool/ddr_bm_log"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/ddr/bm/tool",
+	soc_specific: true,
+}
+
+sh_binary {
+	name: "sharkl5pro_cm4_disable_smart_light.bin",
+	owner: "alldocube",
+	src: "proprietary/vendor/bin/power/ddr/bm/tool/sharkl5pro_cm4_disable_smart_light.bin",
+	filename: "sharkl5pro_cm4_disable_smart_light.bin",
+	sub_dir: "power/ddr/bm/tool",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fix_ddr_freq",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/ddr/fix_freq/fix_ddr_freq"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/ddr/fix_freq",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ddr_loading",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/ddr/loading/ddr_loading"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/ddr/loading",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "ddr_trans_table",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/ddr/trans_table/ddr_trans_table"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/ddr/trans_table",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fps_sf",
+	owner: "alldocube",
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/bin/power/frame/fps_sf"],
+			shared_libs: [ ],
+		},
+	},
+	compile_multilib: "32",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/frame",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "fix_gpu_freq",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/gpu/fix_freq/fix_gpu_freq"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/gpu/fix_freq",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gpu_loading",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/gpu/loading/gpu_loading"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/gpu/loading",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "gpu_trans_table",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/gpu/trans_table/gpu_trans_table"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/gpu/trans_table",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "paras",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/paras/tool/paras"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/paras/tool",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tops",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/power/tops/tops"],
+			shared_libs: ["libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	relative_install_path: "power/tops",
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "refnotify",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/refnotify"],
+			shared_libs: ["libhardware_legacy", "libexpat", "libutils", "libcutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "rpmbserver",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/rpmbserver"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "slogmodem_vendor",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/slogmodem_vendor"],
+			shared_libs: ["libc++", "libcutils", "liblog", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "sprdstorageproxyd",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/sprdstorageproxyd"],
+			shared_libs: ["liblog", "libcutils", "libtrusty", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "srtd",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/srtd"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libatci", "libsysutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "systemDebuggerd",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/systemDebuggerd"],
+			shared_libs: ["liblog", "libbase", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "thermald",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/thermald"],
+			shared_libs: ["liblog", "libcutils", "libutils", "libatci", "libssl", "libcrypto", "libbinder", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "tsupplicant",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/tsupplicant"],
+			shared_libs: ["libtrusty", "libcutils", "libutils", "liblog", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "yloglite",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/yloglite"],
+			shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "yloglitectl",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/yloglitectl"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+
+cc_prebuilt_binary {
+	name: "yloglitekat",
+	owner: "alldocube",
+	target: {
+		android_arm64: {
+			srcs: ["proprietary/vendor/bin/yloglitekat"],
+			shared_libs: ["liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "64",
+	strip: {
+		none: true,
+	},
+	prefer: true,
+	soc_specific: true,
+}
+

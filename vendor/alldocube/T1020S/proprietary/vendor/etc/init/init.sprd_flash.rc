@@ -1,0 +1,2 @@
+on sprd-flash-ko
+    insmod ${ro.vendor.ko.mount.point}/socko/flash_ic_gpio.ko

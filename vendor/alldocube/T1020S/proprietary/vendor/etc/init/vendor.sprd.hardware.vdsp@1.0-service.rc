@@ -1,0 +1,8 @@
+service vendor.sprd.hardware.vdsp@1.0-service /vendor/bin/hw/vendor.sprd.hardware.vdsp@1.0-service
+	class hal
+	user system
+	group cameraserver
+
+on boot
+	start vendor.sprd.hardware.vdsp@1.0-service
+
