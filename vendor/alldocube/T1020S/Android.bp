@@ -2260,6 +2260,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2281,6 +2282,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2302,6 +2304,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2323,6 +2326,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2344,6 +2348,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2365,6 +2370,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2386,6 +2392,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2407,6 +2414,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2428,6 +2436,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2449,6 +2458,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2470,6 +2480,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2491,6 +2502,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -2512,7 +2524,156 @@ cc_prebuilt_library_shared {
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
+
+// GENERATED ENTRIES FOR MISSING OMX LIBRARIES (vndk: enabled REMOVED)
+// Please review shared_libs and other properties carefully.
+
+cc_prebuilt_library_shared {
+    name: "libomx_vp9dec_hw_sprd_secure",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_vp9dec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_vp9dec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_hevcdec_hw_sprd_secure",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_hevcdec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_hevcdec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcenc_hw_sprd_secure",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_avcenc_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_avcenc_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_avcdec_hw_sprd_secure",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_avcdec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_avcdec_hw_sprd_secure.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_cabc_sprd",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_cabc_sprd.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_cabc_sprd.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
+cc_prebuilt_library_shared {
+    name: "libomx_av1dec_sw_sprd",
+    owner: "alldocube",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: ["proprietary/vendor/lib/libomx_av1dec_sw_sprd.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+        android_arm64: {
+            srcs: ["proprietary/vendor/lib64/libomx_av1dec_sw_sprd.so"],
+            // Shared libs copied from similar modules - VERIFY if errors occur!
+            shared_libs: ["libutils", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+        },
+    },
+    compile_multilib: "both",
+    prefer: true,
+    soc_specific: true,
+    allow_undefined_symbols: true, // Kept based on context
+}
+
 
 cc_prebuilt_library_shared {
 	name: "libotp_gc5035_common",
@@ -3764,16 +3925,17 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libstagefrighthw.so"],
-			shared_libs: ["libmemion", "libutils", "libcutils", "libui", "libstagefright_foundation", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libmemion", "libutils", "libcutils", "libui", "libpowerhal_cli", "libion", "libstagefright_foundation", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 		android_arm64: {
 			srcs: ["proprietary/vendor/lib64/libstagefrighthw.so"],
-			shared_libs: ["libmemion", "libutils", "libcutils", "libui", "libstagefright_foundation", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libmemion", "libutils", "libcutils", "libui", "libpowerhal_cli", "libion", "libstagefright_foundation", "liblog", "libc++", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "both",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4633,6 +4795,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4678,12 +4841,13 @@ cc_prebuilt_library_shared {
 	target: {
 		android_arm: {
 			srcs: ["proprietary/vendor/lib/libstagefright_sprd_deintl.so"],
-			shared_libs: ["libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libc++", "libc", "libm", "libdl", ],
+			shared_libs: ["libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libc++", "libion", "libc", "libm", "libdl", ],
 		},
 	},
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4701,6 +4865,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4718,6 +4883,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4735,6 +4901,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4752,6 +4919,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4769,6 +4937,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4786,6 +4955,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4803,6 +4973,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4820,6 +4991,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4837,6 +5009,7 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
@@ -4854,6 +5027,29 @@ cc_prebuilt_library_shared {
 	compile_multilib: "32",
 	prefer: true,
 	soc_specific: true,
+	allow_undefined_symbols: true,
+}
+
+cc_prebuilt_library_shared {
+	name: "libstagefright_sprd_av1dec",
+	owner: "alldocube",
+	strip: {
+		none: true,
+	},
+	target: {
+		android_arm: {
+			srcs: ["proprietary/vendor/lib/libstagefright_sprd_av1dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+		android_arm64: {
+			srcs: ["proprietary/vendor/lib64/libstagefright_sprd_av1dec.so"],
+			shared_libs: ["libstagefright_omx", "libstagefright_omx_utils", "libstagefright_foundation", "libstagefrighthw", "libutils", "libui", "libmemion", "liblog", "libcutils", "libc++", "libc", "libm", "libdl", ],
+		},
+	},
+	compile_multilib: "both",
+	prefer: true,
+	soc_specific: true,
+	allow_undefined_symbols: true,
 }
 
 cc_prebuilt_library_shared {
